@@ -1,0 +1,22 @@
+# Object definitions for pick and place tasks
+# Each object specifies its properties, initial position, and target position
+
+rtx_3080:
+  type: "usd_file"
+  usd_path: "geforce3080/geforce3080.usd"
+  initial_position: [0.3, 0.3, 0.3]  # Starting position [x, y, z] in meters
+  initial_orientation: [1, 0, 0, 0]  # Quaternion [w, x, y, z]
+  grasp_offset_position: [0.0, 0, 0.01]
+  target_position: [0.1, -0.45, 0.19]  # Where to place it [x, y, z] in meters
+  placing_orientation_euler: [0.565486677, 3.1415926535, 0]
+  scale: [0.5, 0.5, 0.5]  # Scale factors [x, y, z]
+
+blue_cube:
+  type: "primitive"
+  shape: "cube"
+  initial_position: [0.5, 0.7, 0.3]
+  initial_orientation: [1, 0, 0, 0]
+  grasp_offset_position: [0, 0, 0]
+  target_position: [-0.5, -0.3, 0.4]
+  size: [0.0515, 0.0515, 0.0515]  # Dimensions [x, y, z] in meters
+  color: [0, 0, 1]  # RGB values [0-1]
