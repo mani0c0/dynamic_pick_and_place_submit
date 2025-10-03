@@ -3,6 +3,13 @@
 This project demonstrates a configurable pick-and-place task using a Franka Emika Panda robot in NVIDIA Isaac Sim. The robot picks multiple objects from a grid and places them onto a moving mobile robot, adapting in real time to random movements using an RMPflow-based controller.
 
 ---
+### Demo
+
+
+
+https://github.com/user-attachments/assets/803e49da-97bb-43b5-8157-f75f7d2a6e61
+
+---
 
 ### Features
 - **Franka Emika Panda** manipulator with parallel gripper
@@ -22,6 +29,7 @@ This project demonstrates a configurable pick-and-place task using a Franka Emik
 > Tip: Launch from the Isaac Sim provided Python to ensure dependencies are available.
 
 ---
+
 
 ### Project Layout
 - `pick_drop_main.py`: Entry point to run the simulation
